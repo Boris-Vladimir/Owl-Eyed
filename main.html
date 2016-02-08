@@ -1,4 +1,4 @@
- com{% extends "base.html" %}
+{% extends "base.html" %}
 
 {% macro config_item(config, depends="") -%}
     <tr class="settings-item additional-config {% if config['advanced'] %}advanced-setting{% endif %}"
